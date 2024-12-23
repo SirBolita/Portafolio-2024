@@ -13,6 +13,7 @@
         <h1>KobaDev</h1>
       </div>
       <div class="menu-items">
+        <li><a href="#inicio">Inicio</a></li>
         <li><a href="#proyectos">Proyectos</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#estudios">Estudios</a></li>
@@ -21,14 +22,49 @@
       </div>
     </div>
   </nav>
-  <nav class="bg-black h-14 hidden md:block">
-    <h1>KobaDev</h1>
+  <nav class="bg-black h-20 hidden md:flex items-center">
+    <h1 class="text-2xl text-white absolute left-10">KobaDev</h1>
+    <div class="flex space-x-6 absolute right-10">
+      <a
+        href="#inicio"
+        class="text-white relative hover:text-gray-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:mt-1 hover:after:w-full"
+        >Inicio</a
+      >
+      <a
+        href="#proyectos"
+        class="text-white relative hover:text-gray-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:mt-1 hover:after:w-full"
+        >Proyectos</a
+      >
+      <a
+        href="#habilidades"
+        class="text-white relative hover:text-gray-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:mt-1 hover:after:w-full"
+        >Habilidades</a
+      >
+      <a
+        href="#estudios"
+        class="text-white relative hover:text-gray-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:mt-1 hover:after:w-full"
+        >Estudios</a
+      >
+      <a
+        href="#sobre_mi"
+        class="text-white relative hover:text-gray-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:mt-1 hover:after:w-full"
+        >Sobre mi</a
+      >
+      <a
+        href="#contacto"
+        class="text-white relative hover:text-gray-300 after:content-[''] after:block after:w-0 after:h-0.5 after:bg-white after:transition-all after:duration-300 after:ease-in-out after:mt-1 hover:after:w-full"
+        >Contacto</a
+      >
+    </div>
   </nav>
 </header>
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+  html {
+    scroll-behavior: smooth;
+  }
   * {
     margin: 0;
     padding: 0;
