@@ -9,10 +9,11 @@ import HeaderComponent from "../components/HeaderComponent.astro";
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <title>KobaDeveloper.com</title>
   </head>
   <body>
     <HeaderComponent />
+
     <main class="">
       <slot />
     </main>
@@ -22,12 +23,12 @@ import HeaderComponent from "../components/HeaderComponent.astro";
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
   body {
-    font-family: "Raleway";
+    background: radial-gradient(circle, #1d1d2b, #0d0d14);
+    color: white;
+    min-height: 100vh;
     margin: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(-225deg, #ff057c 0%, #8d0b93 50%, #321575 100%);
-    background-repeat: initial;
-    background-size: cover;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    position: relative;
   }
 </style>

@@ -3,28 +3,44 @@ import astroLogo from "../assets/astro.svg";
 import background from "../assets/background.svg";
 ---
 
-<section class="grid grid-cols-1 md:grid-cols-2 md:pt-20">
+<div class="particle particle-1"></div>
+<div class="particle particle-2"></div>
+<div class="particle particle-3"></div>
+<div class="particle particle-4"></div>
+<div class="particle particle-5"></div>
+<div class="particle particle-6"></div>
+<div class="particle particle-7"></div>
+
+<section class="grid grid-cols-1 md:grid-cols-2 md:pt-20 presentation">
   <div class="w-full h-[600px] flex items-center justify-center">
-    <img src="/photo.jpg" alt="" class="object-cover w-72 h-72 rounded-full" />
+    <img
+      src="/photo.jpg"
+      alt=""
+      class="object-cover w-72 h-72 rounded-full border-b-4 border-r-4 border-cyan-400"
+    />
   </div>
   <article class="w-full text-white px-10 pb-20 flex flex-col justify-center">
     <h2 class="text-cyan-400 text-2xl font-bold mb-2">LEONARDO VELIZ</h2>
     <span class="block text-2xl font-bold">DESARROLLADOR</span>
     <span class="text-2xl font-bold mb-10"> SOFTWARE JR</span>
     <p class="text-lg mb-10">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, minus
-      voluptate! Necessitatibus amet perferendis qui quas minus sed ea autem
-      ipsa minima eius dignissimos veniam cum odio beatae, explicabo similique?
+      Bachiller en Ingeniería de sistemas e informática en la Universidad
+      Continental, apasionado por la tecnología con experiencia en el desarrollo
+      web y conocimientos en diversas tecnologías como JavaScript, CSS, HTML,
+      React.js, Node.js, SQL y NoSQL. Familiarizado con tecnologías adicionales
+      como PHP con el framework Laravel, conocimientos básicos en gestión de
+      proyectos según el PMBOK. Experimentado en proyectos personales como
+      desarrollo de páginas e-commerce y módulos CRUD
     </p>
     <div class="flex mb-10">
       <a
         href=""
-        class="text-white py-5 bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 text-center me-2 mb-2"
+        class="text-white mr-10 bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-5 text-center me-2 mb-2"
         >Hablemos</a
       >
       <a
         href=""
-        class="text-white py-5 bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 text-center me-2 mb-2"
+        class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-5 text-center me-2 mb-2"
         >Ver curriculum</a
       >
     </div>
@@ -35,14 +51,17 @@ import background from "../assets/background.svg";
     </div>
   </article>
 </section>
-<h3 class="text-white text-center text-2xl font-bold pt-5 bg-black w-full">
+<h3
+  id="proyectos"
+  class="text-white text-start px-32 text-3xl font-bold pt-10 w-full"
+>
   Proyectos
 </h3>
 <section
-  class="grid grid-cols-1 w-full bg-black py-20 md:grid-cols-2 lg:grid-cols-3 gap-5"
+  class="grid grid-cols-1 w-full py-20 md:grid-cols-2 lg:grid-cols-3 gap-5"
 >
   <article
-    class="w-[350px] mx-auto h-[500px] bg-violet-500 text-white my-2 rounded-xl relative"
+    class="w-[350px] mx-auto h-[500px] bg-violet-500 border-violet-900 border-4 text-white my-2 rounded-xl relative"
   >
     <img src="/evofit.jpg" alt="" class="object-cover w-full" />
     <div class="px-6 pt-5">
@@ -66,28 +85,30 @@ import background from "../assets/background.svg";
     </div>
   </article>
   <article
-    class="w-[350px] mx-auto h-[500px] bg-violet-500 text-white my-2 rounded-xl relative"
+    class="w-[350px] mx-auto h-[500px] bg-violet-500 border-violet-900 border-4 text-white my-2 rounded-xl relative"
   >
     <img src="/Dolphine-commerce.jpeg" alt="" class="object-cover w-full" />
     <div class="px-6 pt-5">
       <h4 class="mb-2 font-bold">Dolphine-commerce</h4>
-      <p class="mb-5">Plataforma de ventas y esamblaje de componentes gamer</p>
+      <p class="mb-5">
+        Plataforma de ventas y esamblaje de componentes electronicos
+      </p>
       <h4 class="my-2">TECONOLOGIAS USADAS</h4>
       <div class="flex mb-6">
-        <img src="/laravel.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/javascript.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/css.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/tailwind.png" alt="" class="object-cover w-14 h-14" />
+        <img src="/laravel.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/javascript.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/sql.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/tailwind.png" alt="" class="object-cover w-14 h-14 mx-2" />
       </div>
       <a
-        href="https://youtu.be/vQuZFWCG6QE"
+        href="https://youtu.be/WFWapRldKzI"
         class="text-white absolute bottom-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
         >Ver Demo</a
       >
     </div>
   </article>
   <article
-    class="w-[350px] mx-auto h-[500px] bg-violet-500 text-white my-2 rounded-xl relative"
+    class="w-[350px] mx-auto h-[500px] bg-violet-500 border-violet-900 border-4 text-white my-2 rounded-xl relative"
   >
     <img src="/FreeCourses.com.jpg" alt="" class="object-cover w-full" />
     <div class="px-6 pt-5">
@@ -98,20 +119,20 @@ import background from "../assets/background.svg";
       </p>
       <h4 class="my-2">TECONOLOGIAS USADAS</h4>
       <div class="flex mb-6">
-        <img src="/javascript.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/react.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/python.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/nodejs.png" alt="" class="object-cover w-14 h-14" />
+        <img src="/laravel.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/javascript.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/sql.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/tailwind.png" alt="" class="object-cover w-14 h-14 mx-2" />
       </div>
       <a
-        href="https://youtu.be/imI9rQVHjL4"
+        href="https://youtu.be/UePec31GGvQ"
         class="text-white absolute bottom-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
         >Ver Demo</a
       >
     </div>
   </article>
   <article
-    class="w-[350px] mx-auto h-[500px] bg-violet-500 text-white my-2 rounded-xl relative"
+    class="w-[350px] mx-auto h-[500px] bg-violet-500 border-violet-900 border-4 text-white my-2 rounded-xl relative"
   >
     <img src="/unischool.jpeg" alt="" class="object-cover w-full" />
     <div class="px-6 pt-5">
@@ -121,22 +142,17 @@ import background from "../assets/background.svg";
       </p>
       <h4 class="my-2">TECONOLOGIAS USADAS</h4>
       <div class="flex mb-6">
-        <img src="/javascript.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/react.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/python.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/nodejs.png" alt="" class="object-cover w-14 h-14" />
+        <img src="/javascript.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/laravel.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/css.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/sql.png" alt="" class="object-cover w-14 h-14 mx-2" />
       </div>
-      <a
-        href="https://youtu.be/imI9rQVHjL4"
-        class="text-white absolute bottom-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
-        >Ver Demo</a
-      >
     </div>
   </article>
   <article
-    class="w-[350px] mx-auto h-[500px] bg-violet-500 text-white my-2 rounded-xl relative"
+    class="w-[350px] mx-auto h-[500px] bg-violet-500 border-violet-900 border-4 text-white my-2 rounded-xl relative"
   >
-    <img src="/unischool.jpeg" alt="" class="object-cover w-full" />
+    <img src="/HuancaTrabajos.com.jpg" alt="" class="object-cover w-full" />
     <div class="px-6 pt-5">
       <h4 class="mb-2 font-bold">HUANCATRABAJOS.COM</h4>
       <p class="mb-5">
@@ -144,16 +160,139 @@ import background from "../assets/background.svg";
       </p>
       <h4 class="my-2">TECONOLOGIAS USADAS</h4>
       <div class="flex mb-6">
-        <img src="/javascript.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/laravel.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/python.png" alt="" class="object-cover w-14 h-14" />
-        <img src="/nodejs.png" alt="" class="object-cover w-14 h-14" />
+        <img src="/javascript.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/laravel.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/css.png" alt="" class="object-cover w-14 h-14 mx-2" />
+        <img src="/sql.png" alt="" class="object-cover w-14 h-14 mx-2" />
       </div>
       <a
-        href="https://youtu.be/imI9rQVHjL4"
+        href="https://youtu.be/up5ECQMtMnQ"
         class="text-white absolute bottom-2 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
         >Ver Demo</a
       >
     </div>
   </article>
 </section>
+
+<section class="w-full flex items-center justify-center py-20 skills">
+  <div class="h-3/4 w-[86%]">
+    <h2 id="habilidades" class="font-bold text-3xl text-white">Habilidades</h2>
+    <div class="mt-20 flex flex-wrap items-center justify-center relative">
+      <img
+        src="/react.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 mx-2 z-20 shadow-lg shadow-white p-4"
+      />
+      <div class="w-full h-1 bg-white absolute top-14 bar blur-sm"></div>
+      <img
+        src="/javascript.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 m-4 z-20 shadow-lg shadow-white p-4"
+      />
+      <img
+        src="/css.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 mx-2 z-20 shadow-lg shadow-white p-4"
+      />
+      <img
+        src="/tailwind.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 m-4 z-20 shadow-lg shadow-white p-4"
+      />
+      <img
+        src="/nodejs.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 m-4 z-20 shadow-lg shadow-white p-4"
+      />
+      <img
+        src="/python.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 m-4 z-20 shadow-lg shadow-white p-4"
+      />
+      <img
+        src="/sql.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 mx-2 z-20 shadow-lg shadow-white p-4"
+      />
+      <img
+        src="/laravel.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 m-4 z-20 shadow-lg shadow-white p-4"
+      />
+      <img
+        src="/html.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 m-4 shadow-lg shadow-white p-4"
+      />
+      <img
+        src="/GitHub.png"
+        alt=""
+        class="object-cover w-20 h-20 sm:mx-16 m-4 z-20 shadow-lg shadow-white p-4"
+      />
+    </div>
+  </div>
+</section>
+
+<style>
+  .bar::after,
+  .bar::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  .bar::after {
+    right: 0;
+    top: -3px;
+  }
+  .bar::before {
+    left: 0;
+    top: -3px;
+  }
+  .particle {
+    position: absolute;
+    filter: blur(100px);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    z-index: -1;
+  }
+  .particle-1 {
+    left: 0%;
+    bottom: 50%;
+    background: rgb(45, 47, 192);
+  }
+  .particle-2 {
+    right: 0%;
+    top: 0%;
+    background: rgb(45, 47, 192);
+  }
+  .particle-3 {
+    top: 10%;
+    left: 0%;
+    background: rgb(45, 47, 192);
+  }
+  .particle-4 {
+    left: 0%;
+    bottom: 0%;
+    background: rgb(45, 47, 192);
+  }
+  .particle-5 {
+    right: 50%;
+    top: 25%;
+    background: rgb(45, 47, 192);
+  }
+  .particle-6 {
+    right: 0%;
+    top: 50%;
+    background: rgb(45, 47, 192);
+  }
+  .particle-7 {
+    right: 50%;
+    bottom: 20%;
+    background: rgb(45, 47, 192);
+  }
+</style>
